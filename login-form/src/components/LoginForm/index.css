@@ -1,0 +1,29 @@
+.bg-container {
+    
+    height:100vh ;
+    background-size:cover
+    
+
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width :576px) {
+    .image1{
+        background-image: url("https://images.unsplash.com/photo-1611068813580-b07ef920964b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    }
+    
+    
+}
+
+@media screen and (min-width :577px) {
+    .image2{
+        background-image: url("https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg");
+    }
+    
+    
+}
